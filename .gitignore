@@ -1,3 +1,20 @@
+Thumbs.db
+ehthumbs.db
+.metadata/
+.settings/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+*.caches
+*.class
+*.dex
+*.apk
+*.cache
+*.ap_
+*.log
+
 *.class
 
 # Mobile Tools for Java (J2ME)
