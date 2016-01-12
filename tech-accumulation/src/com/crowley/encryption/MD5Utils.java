@@ -8,14 +8,14 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 /**
- *  
+ *  This class is used for generating MD5 digest.
  * @author Crowly shumanchang826@gmail.com
  */
 public class MD5Utils {
 	private static final String algorithm = "MD5";
 	
-	/**
-	 * @param source The source String to be calculated.
+	/** Generate MD5 digest of String Object.
+	 * @param source The source String to be calculated md5 digest.
 	 * @return The md5 digest.
 	 */
 	public static String getMD5(String source) {
@@ -32,8 +32,8 @@ public class MD5Utils {
 	}
 	
 	/**
-	 * 
-	 * @param file The file to be calculated.
+	 * Generate MD5 digest of a file.
+	 * @param file The file to be calculated md5 digest.
 	 * @return The md5 digest.
 	 */
 	public static String getMD5(File file) {

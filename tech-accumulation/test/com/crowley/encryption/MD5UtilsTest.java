@@ -17,6 +17,7 @@ public class MD5UtilsTest {
 		Assert.assertEquals("FD994A92D8EB704817268D5980911C1B", MD5Utils.getMD5("Who are you ?"));
 		Assert.assertEquals("0449EAE4BB72AC9620A8842039FF9C6C", MD5Utils.getMD5("Could you speak mandarin?"));
 		Assert.assertEquals("47E70D30393989D6455C6429B88FA407", MD5Utils.getMD5("36564135143541541354152"));
+		Assert.assertEquals("D41D8CD98F00B204E9800998ECF8427E", MD5Utils.getMD5(""));
 	}
 	
 	@Test
